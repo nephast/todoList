@@ -9,7 +9,7 @@ const port = 3000;
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static(__dirname + '/views'));
-app.use(express.static(__dirname + 'public'));
+app.use(express.static(__dirname + '/public'));
     
     app.get('/', function(req, res) {
         res.sendFile('index.html');
