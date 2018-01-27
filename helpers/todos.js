@@ -30,4 +30,4 @@ exports.deleteTodo = function(req, res) {
     .catch(e => res.send(e)) 
 }
 
-module.exports = exports;
+// module.exports = exports;
